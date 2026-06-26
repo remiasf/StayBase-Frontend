@@ -17,7 +17,7 @@ export default function HomePage() {
       return;
     }
 
-    router.push(`/search/${encodeURIComponent(normalizedAddress)}?radius=10`);
+    router.push(`/search/${encodeURIComponent(normalizedAddress)}`);
   };
 
   return (
