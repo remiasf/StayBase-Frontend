@@ -65,15 +65,15 @@ export default function ApartmentCard({ apartment }: { apartment: Apartment }) {
 
         
         <div className="flex items-center gap-4 text-sm text-slate-600 mb-5 pb-4 border-b border-slate-100">
-          <div className="flex items-center gap-1.5" title="Вместимость">
+          <div className="flex items-center gap-1.5" title="capacity">
             <Users className="w-4 h-4 text-slate-400" />
             <span>Up to {apartment.maxGuests}</span>
           </div>
-          <div className="flex items-center gap-1.5" title="Комнаты">
+          <div className="flex items-center gap-1.5" title="rooms">
             <BedDouble className="w-4 h-4 text-slate-400" />
             <span>{apartment.rooms} rooms</span>
           </div>
-          <div className="flex items-center gap-1.5" title="Площадь">
+          <div className="flex items-center gap-1.5" title="area">
             <Maximize className="w-4 h-4 text-slate-400" />
             <span>{apartment.size} м²</span>
           </div>
